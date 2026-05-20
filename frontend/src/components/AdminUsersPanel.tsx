@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import type { User } from '../types'
+import type { Product, User } from '../types'
 import api from '../lib/api'
 
 /* ═══════════════════════════
