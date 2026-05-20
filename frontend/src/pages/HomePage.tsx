@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { useReveal } from '../hooks/useReveal'
-
+// @ts-ignore: allow importing CSS side-effect in TS project without type declarations
 import jenImg from '../assets/jen.jpg';
 
 const LOCATIONS = [

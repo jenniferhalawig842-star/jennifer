@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
+// @ts-ignore: allow importing CSS side-effect in TS project without type declarations
 import '../styles/buy.css'
-
 import { useCart }  from '../hooks/useCart'
 import { useAuth }  from '../hooks/useAuth'
 import api          from '../lib/api'

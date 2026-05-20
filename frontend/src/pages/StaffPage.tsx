@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from 'react'
+// @ts-ignore: allow importing CSS side-effect in TS project without type declarations
 import '../styles/staff.css'
-
 import { useAuth }       from '../hooks/useAuth'
 import api               from '../lib/api'
 import type { Order }    from '../types'
