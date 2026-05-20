@@ -10,6 +10,8 @@
     "build": "cd frontend && npm run build && cd ../backend && npm run build"
   },
   "devDependencies": {
+    "@types/node": "^25.9.1",
+    "typescript": "^5.9.3",
     "vite-tsconfig-paths": "^6.1.1"
   }
 }
